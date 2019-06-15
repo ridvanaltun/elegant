@@ -14,4 +14,4 @@ This repo based on [hydeout theme](https://github.com/fongandrew/hydeout) and It
 
 # License
 
-It's under the [MIT](https://github.com/ridvanaltun/hydeout-extented/blob/master/LICENSE) license.
+It's under the [MIT](https://github.com/ridvanaltun/elegant/blob/master/LICENSE) license.
