@@ -1,0 +1,17 @@
+<div class="post-meta">
+  <span class="post-categories">
+    {% for category in include.post.categories %}
+      {% assign category_page = false %}
+      {% for node in site.pages %}
+        {% if node.category == category or node.title == category %}
+          {% assign category_page = node %}
+        {% endif %}
+      {% endfor %}
+      {% if category_page %}
+        <a href="{{ site.baseurl }}{{ category_page.url }}">{{ category }}</a>
+      {% else %}
+        <a href="{{ site.baseurl }}{{ category_page.url }}">{{ category }}</a>
+      {% endif %}
+    {% endfor %}
+  </span>
+</div>

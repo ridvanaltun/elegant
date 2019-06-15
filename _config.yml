@@ -1,0 +1,62 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            R'Space
+tagline:          '@ridvanaltun'
+description:      'by <a href="https://github.com/ridvanaltun" target="_blank">@ridvanaltun</a>.'
+url:              'http:localhost:4000' #'https://ridvanaltun.github.io'
+baseurl:          '' #'https://ridvanaltun.github.io'
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Rıdvan Altun'
+  url:            https://medium.com/@ridvanaltun
+
+plugins:
+  - jemoji
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Custom vars
+version:            3.6.0
+sidebar_home_link:  true
+
+github:
+  repo:             https://github.com/ridvanaltun/elegant.git
+
+disqus:
+  shortname: rspace
+
+google_analytics: 'UA-130224246-1'
+
+# Collections
+## collections_dir: "./collections"
+
+## collections:
+##   - docs
+##   - files
+##   - posts
+##   - drafts
+##   - presentations
+
+# Paginate
+paginate: 5
+paginate_path: "/archieve:num/"
+
+# jekyll-pages-directory
+## pages: ./collections/_pages
+pages: ./_pages
+
+# Permalink
+permalink: "/archieve/:categories/:title:output_ext"
+
+# Buy me a coffee
+donate: "https://paypal.com/"

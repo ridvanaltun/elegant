@@ -1,0 +1,33 @@
+.buymeacoffee {
+    margin: 0 0 10px;
+    min-height: 160px;
+    border-style:dashed;
+    border-color:red
+}
+
+.buymeacoffee .buymeacoffee-link img{
+    width:150px;
+    float:left;
+    margin:0;
+    padding:5px;
+    border:none
+}
+
+.buymeacoffee .buymeacoffee-link .buymeacoffee-text .buymeacoffee-title{
+    display:block;
+    margin-top:25px;
+    padding:0;
+    width:calc(100% - 80px);
+    color:#00704a;
+    font-family:'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-size:26px;
+    text-align:center;
+    line-height:1.4
+}
+
+.buymeacoffee .buymeacoffee-link .buymeacoffee-text .buymeacoffee-message{
+    margin-top:0;
+    color:#000;
+    font-family:'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-size:19px
+}

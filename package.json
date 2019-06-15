@@ -1,0 +1,27 @@
+{
+  "name": "Elegant",
+  "version": "1.0.0",
+  "description": "An elegant theme for Jekyll.",
+  "main": "app.js",
+  "scripts": {
+	  "start": "bundle exec jekyll serve --watch",
+    "start-admin": "bundle exec jekyll serve --watch --drafts",
+	  "install": "bundle install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridvanaltun/elegant.git"
+  },
+  "keywords": [
+    "jekyll",
+    "blog",
+    "github-page"
+  ],
+  "author": "Rıdvan Altun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ridvanaltun/elegant.git/issues"
+  },
+  "homepage": "https://github.com/ridvanaltun/elegant.git#readme"
+}

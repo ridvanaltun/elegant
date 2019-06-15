@@ -1,0 +1,11 @@
+# jekyll
+/_posts
+/_drafts
+/_site
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# node
+/node_modules
+app.js

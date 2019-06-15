@@ -1,0 +1,16 @@
+<header>
+  <h1 class="post-title">
+    <span style="font-weight: bold"> {{ page.title }}</span>
+    <span style="font-size: 25px; color: lightgray;" class="post-date">
+        <span style="font-size: 30px; font-weight: bold;">~ </span>
+
+        {{ page.date | date_to_string }}
+
+    </span>
+  </h1>
+  <div style="margin-top: 1rem; display: flex; align-items: center; justify-content: left;">
+      {% include share-buttons.html %}
+      <span style="margin-left: 0.7rem; margin-right: 0.7rem;"> or </span>
+      {% include donate-button.html %}
+  </div>
+</header>

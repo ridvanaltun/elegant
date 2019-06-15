@@ -1,0 +1,39 @@
+TODO:
+ ✔ Works kısmı açılmalı ve ayrıca listelenmeli. @done (19-06-15 19:01)
+ ✔ 404 sayfasındaki hata giderilmeli. @done (19-06-15 19:01)
+ ✔ Yaptığımız footer yazı büyüdükçe kendini alta atmalı. @done (19-06-15 19:01)
+ ✔ Page içine yazdığımız CSS'ler _extra.scss altında toplanmalı. @done (19-06-15 19:01)
+ ✔ Google analytics eklenebilir. @done (19-06-15 19:01)
+ ✔ Template gönderisine jemoji üstünde neler kullanılabilir yazılmalı. @done (19-06-15 19:01)
+ ✔ Mail üyeliği ile yeni blog yazılarını bildirme özelliği konabilir. @done (19-06-15 19:01)
+ ✔ Comment bölümü kullanıcı tıklayınca açılsın. @done (19-06-15 19:01)
+ ✔ Pages klasörü kullan. @done (19-06-15 19:01)
+ ✔ Last modified bölümünü otomatikleştir. @done (19-06-15 19:01)
+ ✔ All posts bölümünü kaldır. @done (19-06-15 19:01)
+ ✔ Seo Tag eklentisini kur ve ayarla. @done (19-06-15 19:01)
+ ✔ Sitemap eklentisini kur ve ayarla. @done (19-06-15 19:01)
+ ✔ .editorconfig dosyası hazırla. @done (19-06-15 19:01)
+ ✔ .gitattributes ile satır sonunu ve indirme sırasında ignore edilecek dosyaları ayarla. @done (19-06-15 19:01)
+ ✔ Buy me coffee kısmı için komponent oluştur. @done (19-06-15 19:02)
+ ☐ 404 sayfasını özelleştir.
+ ☐ Archieve kısmına paginate sistemi kur.
+ ☐ Works ve posts boş sayfalarını ayarla.
+ ☐ Paylaş button kompenenti oluştur.
+ ☐ Archieve içindeki ikincil menüyü sağ tarafa hizala.
+ ☐ Sunum özelliği ekle.
+ ☐ Draft özelliği ekle.
+ ☐ Table of Contents özelliği ekle.
+ ☐ Reklam engelleyici tespiti ekle ve paylaş butonları engellendiyse özel bir komponent göster.
+ ☐ FTP site ile ilişkili şifreli sayfa özelliği ekle.
+ ☐ Store sayfası ekle, ürünleri diğer mağazalara linkleyen bir sistem hazırla.
+ ☐ Post'a yapılan yorum sayısını elde et ve sayfa içinde kullan.
+ ☐ Çoklu dil desteği ekle.
+ ☐ Collection bölümü ayarla.
+ ☐ Post'ları collection'a çevir ve dosyanın önüne tarih atmaktan kurtul.
+ ☐ Mail üyeliğini component haline getir, sayfa ile üyelik sistemini sil.
+ ☐ Yazı kaç dakikada okunur bilgisi ekle.
+ ☐ Derleme sırasında her post için bir PDF oluşturt.
+ ☐ Arama butonu ekle.
+ ☐ Üste çık komponenti hazırla.
+ ☐ Temanın nasıl kullanılacağını README.md içinde belirt.
+ ☐ Mobil uyumluluk.

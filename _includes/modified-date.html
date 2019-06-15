@@ -1,0 +1,7 @@
+{% if page.modified %}
+  <p class="message">
+  	<b>Last Modified:</b> 
+    {% capture lastmod_date %}{% last_modified {{ page.path }} %}{% endcapture %}{{ lastmod_date | date: "%d %b %Y ~ %H:%M" }}
+  </p>
+{% endif %}
+
