@@ -37,7 +37,7 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
-  padding: $section-spacing;
+  padding: $sidebar-spacing;
 
   .site-title {
     font-family: 'Nothing You Could Do', cursive;
@@ -187,6 +187,7 @@ body {
     color: $body-color;
     padding: $section-spacing;
     padding-left: $section-spacing * 2;
+    padding-right: $section-spacing * 2;
     height: 100vh;
 
     > header {
