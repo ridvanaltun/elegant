@@ -1,14 +1,13 @@
 ---
 layout: page
 title: Mail Subscribe
-menu: false
 ---
 
 <h1>Mail Subscribe</h1>
 <br>
 If a new blog post is shared, I need your email address to let you know.
 
-<div class="subscribe">
+<div class="mail-box">
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">

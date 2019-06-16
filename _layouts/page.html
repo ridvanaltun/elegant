@@ -6,6 +6,6 @@ layout: default
   {{ content }}
 </div>
 
-{% if page.footer %}
+{% if page.url == '/' %}
     {% include index-footer.html %}
 {% endif %}

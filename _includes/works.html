@@ -1,18 +1,18 @@
-<div style="margin-top: 1.5rem">
-  <ul class="work_list">
+<div style="margin-top: 1.5rem;">
+  <ul class="work-list">
 
     {% assign var = 0 %}
     {% for post in site.posts %}
         {% if post.category[0] == 'Work' %}
-        
+
           <li>
             <h3 class="h3">
               <a href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }} 
+                {{ post.title }}
               </a>
-              <span class="post-date">~ {{ post.date | date_to_string }}</span>   
+              <span class="post-date">~ {{ post.date | date_to_string }}</span>
             </h3>
-          </li>  
+          </li>
 
             {% assign var = var | plus: 1 %}
 
@@ -23,6 +23,6 @@
         {% endif %}
 
     {% endfor %}
-      
+
   </ul>
 </div>

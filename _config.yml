@@ -60,3 +60,15 @@ permalink: "/archieve/:categories/:title:output_ext"
 
 # Buy me a coffee
 donate: "https://paypal.com/"
+
+# Sidebar link settings
+sidebar_homepage:
+  enabled: true
+  name: "about"
+
+sidebar_blog:
+  enabled: true
+  name: "archieve"
+
+sidebar_links:
+  - works

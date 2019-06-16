@@ -1,28 +1,28 @@
-<div>
-<ul class="post_list">
+<div class="archieve-container">
+  <ul class="archieve-list">
 
-{% assign var = 0 %}
-{% for post in site.posts %}
-    {% if post.category[0] != 'Work' %}
-    
-      <li>
-        <h3 class="h3">
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }} 
-          </a>
-          <span class="post-date">~ {{ post.date | date_to_string }}</span>   
-        </h3>
-      </li>  
+  {% assign var = 0 %}
+  {% for post in site.posts %}
+      {% if post.category[0] != 'Work' %}
 
-        {% assign var = var | plus: 1 %}
+        <li>
+          <h3 class="h3">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+            <span class="archieve-date">~ {{ post.date | date_to_string }}</span>
+          </h3>
+        </li>
 
-        {% if var == 9 %}
-            {% break %}
-        {% endif %}
+          {% assign var = var | plus: 1 %}
 
-    {% endif %}
+          {% if var == 9 %}
+              {% break %}
+          {% endif %}
 
-{% endfor %}
-    
-</ul>
+      {% endif %}
+
+  {% endfor %}
+
+  </ul>
 </div>

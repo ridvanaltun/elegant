@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Archieve
-menu: true
 ---
 
 # Lastest Posts
