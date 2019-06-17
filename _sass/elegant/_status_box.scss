@@ -1,0 +1,51 @@
+.danger {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 3px solid #ff707a !important;
+  background-color: #f4f4f4;
+  color: #686868;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: .1px;
+  font-style: italic;
+}
+
+.success {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 3px solid #228B22 !important;
+  background-color: #AAFFB1;
+  color: #686868;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: .1px;
+  font-style: italic;
+}
+
+.warning {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 3px solid rgb(255, 121, 0) !important;
+  background-color: #FEDEBE;
+  color: #686868;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: .1px;
+  font-style: italic;
+}
+
+.quate {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  border-style: solid;
+  font-size: initial;
+  width: -webkit-fill-available;
+  text-align: center;
+  border-radius: 1rem 2rem;
+  border-bottom-right-radius: 2;
+  border-style: solid;
+}
