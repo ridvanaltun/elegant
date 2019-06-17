@@ -23,7 +23,7 @@ TODO:
  ☐ Sunum özelliği ekle.
  ☐ Draft özelliği ekle.
  ☐ Table of Contents özelliği ekle.
- ☐ Reklam engelleyici tespiti ekle ve paylaş butonları engellendiyse özel bir komponent göster.
+ ✔ Reklam engelleyici tespiti ekle ve paylaş butonları engellenine karşı başlık altı komponentini gizle. @done (19-06-17 04:28)
  ☐ FTP site ile ilişkili şifreli sayfa özelliği ekle.
  ☐ Store sayfası ekle, ürünleri diğer mağazalara linkleyen bir sistem hazırla.
  ☐ Post'a yapılan yorum sayısını elde et ve sayfa içinde kullan.
