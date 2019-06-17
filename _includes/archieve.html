@@ -1,18 +1,36 @@
+<h1 style="line-height: 1rem; margin-bottom: 0rem;">Last Posts</h1>
 <div class="archieve-container">
-  <ul class="archieve-list">
+  <table style="margin-bottom: 0rem; width: auto; border: 0;">
 
   {% assign var = 0 %}
   {% for post in site.posts %}
       {% if post.category[0] != 'Work' %}
 
-        <li>
-          <h3 class="post-title">
-            <a href="{{ site.baseurl }}{{ post.url }}">
+        <tr>
+          <td style="padding: .5rem; border: 0px solid #ffffff; background-color: transparent;">
+
+            <h3 class="post-title" style="margin-bottom: 0rem; line-height: 1rem;">
+
+            <span class="archieve-reading-time">{{ post.content | reading_time }}</span>
+
+            </h3>
+
+          </td>
+
+          <td style="padding: .5rem; border: 0px solid #ffffff; background-color: transparent;">
+
+          <h3 class="post-title" style="margin-bottom: 0rem; line-height: 1rem;">
+
+            <a style="color: #ac4142;" href="{{ site.baseurl }}{{ post.url }}">
               {{ post.title }}
             </a>
+
             <span class="archieve-date">~ {{ post.date | date_to_string }}</span>
+
           </h3>
-        </li>
+
+          </td>
+        </tr>
 
           {% assign var = var | plus: 1 %}
 
@@ -24,5 +42,5 @@
 
   {% endfor %}
 
-  </ul>
+  </table>
 </div>
