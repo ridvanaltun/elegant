@@ -1,3 +1,8 @@
-<p style="margin: 0; padding: 0; font-size: .8rem;">
-    <a href="{{ site.url }}/store.html">Email Subscribe</a> | <a href="{{ site.url }}/feed.xml">RSS</a>
+<p class="sidebar-mini-menu">
+    {% if site.email_subscribe.enabled %}
+      <a class="btn" data-popup-open="email" href="#email">Email Subscribe</a> &middot;
+    {% endif %}
+    <a href="{{ site.url }}/feed.xml">RSS</a>
 </p>
+
+

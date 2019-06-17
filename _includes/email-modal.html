@@ -1,0 +1,23 @@
+<div class="popup" data-popup="email">
+  <div class="popup-inner" style="width: auto; padding: 0;">
+    <div class="modal-dialog modal-newsletter">
+      <div class="modal-content">
+        <form action="{{ site.email_subscribe.url }}" method="post" target="_blank">
+          <div class="modal-header">
+            <h4>Subscribe to our newsletter</h4>
+          </div>
+          <div class="modal-body">
+            <p>Signup for our weekly newsletter to get the latest news, updates and amazing offers delivered directly in your inbox.</p>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email" required>
+              <span class="input-group-btn">
+                <input type="submit" class="btn btn-primary" value="Subscribe">
+              </span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <a class="popup-close" data-popup-close="email" href="#">x</a>
+  </div>
+</div>

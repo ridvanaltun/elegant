@@ -11,6 +11,7 @@ This repo based on [hydeout theme](https://github.com/fongandrew/hydeout) and It
 * [Jekyll Collections](https://jekyllrb.com/docs/collections/)
 * [A Jekyll Subscribe Form That Actually Works!](https://blog.webjeda.com/jekyll-subscribe-form/)
 * [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908/)
+* [Create a Fading Popup Modal with jQuery](https://inspirationalpixels.com/custom-popup-modal/)
 
 # License
 

@@ -78,3 +78,8 @@ reading_time:
   second_plural: "sec"    # default: seconds
   minute_singular: "min"  # default: minute
   minute_plural: "min"    # default: minutes
+
+# Email Subscribe
+email_subscribe:
+  enabled: true
+  url: "http://mailchimp.com/" # form post url
