@@ -2,6 +2,9 @@
     {% if site.email_subscribe.enabled %}
       <a class="btn" data-popup-open="email" href="#email">Email Subscribe</a> &middot;
     {% endif %}
+    {% if site.secure.enabled %}
+      <a class="btn" data-popup-open="secure" href="#secure">Secure</a> &middot;
+    {% endif %}
     <a href="{{ site.url }}/feed.xml">RSS</a>
 </p>
 

@@ -83,3 +83,7 @@ reading_time:
 email_subscribe:
   enabled: true
   url: "http://mailchimp.com/" # form post url
+
+# Secure Pages
+secure:
+  enabled: true

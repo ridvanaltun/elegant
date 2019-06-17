@@ -35,9 +35,33 @@
 .sidebar-mini-menu {
   margin: 0;
   padding: 0;
-  font-size: .8rem;
+  font-size: .7rem;
+  font-family: monospace;
 }
 
 .sidebar-mini-menu a {
-  color: navajowhite !important;
+  color: rosybrown !important;
+}
+
+.key {
+  display: block;
+  margin: 0;
+  padding: var(--inputPaddingV) var(--inputPaddingH);
+  color: inherit;
+  width: 100%;
+  font-family: inherit;
+  font-size: var(--inputFontSize);
+  font-weight: inherit;
+  line-height: var(--inputLineHeight);
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow var(--transitionDuration);
+  padding-left: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.secureBtn {
+  padding: 0.5rem;
+  text-decoration: none;
+  font-weight: 400;
 }
