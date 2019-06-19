@@ -34,7 +34,7 @@ TODO:
  ✔ Yazı kaç dakikada okunur bilgisi ekle. @done (19-06-16 23:30)
  ☐ Derleme sırasında her post için bir PDF oluşturt.
  ☐ Arama butonu ekle.
- ☐ Back To Top komponenti hazırla.
+ ✔ Back To Top komponenti hazırla. @done (19-06-19 17:50)
  ☐ Temanın nasıl kullanılacağını README.md içinde belirt.
  ☐ Mobil uyumluluk.
  ☐ Link içinde hash etiketi ile sayfa içinde gezinmeyi ekle.
